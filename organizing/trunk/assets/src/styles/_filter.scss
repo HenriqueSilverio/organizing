@@ -1,0 +1,31 @@
+//
+// Filter
+//
+
+.organizing-filter {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $border-color-default;
+  background-color: #ecf0f1;
+}
+
+.organizing-filter__column {
+  align-self: flex-end;
+}
+
+.organizing-filter__column:first-child {
+  width: 170px;
+}
+
+.organizing-filter__column:not(:first-child) {
+  margin-left: 10px;
+}
+
+  .organizing-filter__column select {
+    height: 37px;
+  }
+
+  .organizing-filter__column .organizing-button {
+    height: 37px;
+  }

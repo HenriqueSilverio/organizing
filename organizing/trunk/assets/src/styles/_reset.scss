@@ -1,0 +1,46 @@
+//
+// Reset
+//
+
+[class^="organizing-"] {
+  box-sizing: border-box;
+}
+
+.organizing {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+//
+// Scoped styles to be consistent across different themes.
+//
+// Tested in:
+//
+// - Twenty Fifteen
+// - Twenty Sixteen
+// - Twenty Seventeen
+//
+// Overwritten rules:
+//
+//  .entry-content a
+//  .entry-content a:hover
+//  .entry-content a:focus
+//  .entry-content a img
+//  .next.page-numbers
+//
+.organizing {
+  a {
+    border-bottom: 0;
+    box-shadow: none;
+
+    &:hover,
+    &:focus,
+    img {
+      box-shadow: none;
+    }
+  }
+
+  .next.page-numbers {
+    float: none;
+  }
+}

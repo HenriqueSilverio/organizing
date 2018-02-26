@@ -1,0 +1,20 @@
+//
+// Variables
+//
+
+$danger       : #ff4757;
+$danger-hover : darken($danger, 4%);
+$danger-active: darken($danger, 8%);
+
+$warning-text-color      : #856404;
+$warning-border-color    : #ffeeba;
+$warning-background-color: #fff3cd;
+
+$text-color-default  : #2f3542;
+$text-color-ligth    : #57606f;
+$border-color-default: #dfe4ea;
+
+$input-color             : $text-color-default;
+$input-border-color      : #ced4da;
+$input-border-color-focus: #999;
+$input-background-color  : #fff;
