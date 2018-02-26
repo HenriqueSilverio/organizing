@@ -1,0 +1,14 @@
+# SVN
+.svn
+
+# NPM
+node_modules
+
+# Code Editors
+*.sublime-*
+
+# OS X metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
