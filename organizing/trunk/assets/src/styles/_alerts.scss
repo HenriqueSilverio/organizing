@@ -1,0 +1,17 @@
+//
+// Alerts
+//
+
+.organizing-alert {
+  position: relative;
+  padding: 6px 10px;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.organizing-alert--warning {
+  color: $warning-text-color;
+  border-color: $warning-border-color;
+  background-color: $warning-background-color;
+}

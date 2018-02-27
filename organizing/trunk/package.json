@@ -1,0 +1,36 @@
+{
+  "name": "organizing",
+  "version": "1.0.0",
+  "description": "Easily create a Document Library and show a filterable listing with download links.",
+  "keywords": [
+    "pdf",
+    "docs",
+    "documents",
+    "pdf manager",
+    "pdf listings",
+    "docs listing",
+    "document library",
+    "downloadable pdf"
+  ],
+  "main": "assets/dist/organizing.js",
+  "scripts": {
+    "build-js": "uglifyjs assets/src/scripts/organizing.js -o assets/dist/scripts/organizing.min.js",
+    "build-css": "node-sass assets/src/styles/organizing.scss assets/dist/styles/organizing.css --output-style=compressed",
+    "build": "npm run build-js && npm run build-css",
+    "start": "npm run build && node-sass assets/src/styles -w -r -o assets/dist/styles --output-style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueSilverio/organizing.git"
+  },
+  "author": "Henrique Silvério",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/HenriqueSilverio/organizing/issues"
+  },
+  "homepage": "https://wordpress.org/plugins/organizing",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "uglify-es": "^3.3.9"
+  }
+}

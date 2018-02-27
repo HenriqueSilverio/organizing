@@ -1,0 +1,24 @@
+{
+  "name": "henriquesilverio/organizing",
+  "description": "Easily create a Document Library and shows a listing with filters and download links.",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "pdf",
+    "docs",
+    "documents",
+    "pdf manager",
+    "pdf listings",
+    "docs listing",
+    "document library",
+    "downloadable pdf"
+  ],
+  "require": {
+    "php": "^7.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "HenriqueSilverio\\Organizing\\": "src"
+    }
+  }
+}

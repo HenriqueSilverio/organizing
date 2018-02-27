@@ -1,0 +1,116 @@
+//
+// List
+//
+
+.organizing-results {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border-right: 1px solid $border-color-default;
+  border-bottom: 1px solid $border-color-default;
+  border-left: 1px solid $border-color-default;
+  background-color: #f3f4f7;
+}
+
+.organizing-results--empty {
+  padding: 10px;
+}
+
+.organizing-list {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: normal;
+  list-style-type: none;
+}
+
+.organizing-list-item:not(:first-child) {
+  border-top: 1px solid $border-color-default;
+}
+
+  .organizing-list-item__link {
+    display: block;
+    position: relative;
+    min-height: 204px;
+    padding: 16px 16px 16px 156px;
+    font-family: sans-serif;
+    color: $text-color-default;
+    text-decoration: none;
+    border-left: 4px solid transparent;
+    background-color: #f3f4f7;
+  }
+
+  a.organizing-list-item__link {
+    transition: color .15s ease-in-out,
+                border-left-color .15s ease-in-out,
+                background-color .20s ease-in-out;
+  }
+
+  .organizing-list-item__link:hover,
+  .organizing-list-item__link:focus {
+    color: $text-color-ligth;
+    border-left-color: $danger-hover;
+    background-color: #fff;
+    outline: 0;
+  }
+
+  .organizing-list-item__link:active {
+    border-left-color: $danger-active;
+  }
+
+  .organizing-list-item__thumb-mask {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    width: 100%;
+    height: 100%;
+    max-width: 130px;
+    max-height: 184px;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+  .organizing-list-item__thumb {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    transform: translateY(-50%);
+  }
+
+.organizing-list-item__title {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.organizing-list-item__metada {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: $text-color-ligth;
+}
+
+.organizing-list-item__excerpt {
+  display: block;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.organizing-list-item__download {
+  display: block;
+  color: $danger;
+  font-size: 16px;
+  transition: color .15s ease-in-out;
+}
+
+.organizing-list-item__link:hover .organizing-list-item__download,
+.organizing-list-item__link:focus .organizing-list-item__download {
+  color: $danger-hover;
+}
+
+.organizing-list-item__link:active .organizing-list-item__download {
+  color: $danger-hover;
+}

@@ -1,0 +1,67 @@
+//
+// Forms
+//
+
+// Lebal
+.organizing-form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+// Text input
+.organizing-form-control,
+.organizing-filter input[type="text"] {
+  width: 100%;
+  height: 37px;
+  padding: 6px 12px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: $text-color-default;
+  border-radius: 4px;
+  border: 1px solid $input-border-color;
+  background-color: $input-background-color;
+  transition: border-color .15s ease-in-out;
+
+  &:focus {
+    outline: none;
+    border-color: $input-border-color-focus;
+  }
+}
+
+// Opinionated placeholder styles.
+.organizing-filter ::placeholder {
+  color: $text-color-default;
+  font-family: sans-serif;
+  opacity: 1;
+}
+
+// Select dropdown of Years
+.organizing-form-control--year {
+  min-width: 80px;
+}
+
+// Select input
+.organizing-filter select {
+  height: 37px;
+  font-family: sans-serif;
+
+  // Unstyle the caret on `<select>`s in IE10+.
+  &::-ms-expand {
+    border: 0;
+    background-color: transparent;
+  }
+
+  // Remove dotted outline/border in Firefox
+  // See: https://github.com/twbs/bootstrap/issues/19398
+  &:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 $text-color-default;
+  }
+
+  // Suppress default white text on blue background in IE/Edge.
+  // See: https://github.com/twbs/bootstrap/issues/19398
+  &:focus::-ms-value {
+    color: $text-color-default;
+    background-color: $input-background-color;
+  }
+}
