@@ -4,7 +4,7 @@ Contributors: henriquesilverio
 Tags: document library, pdf, pdf listings, pdf manager, downloadable pdf, docs, documents, docs listing
 Requires at least: 4.9.4
 Tested up to: 4.9.4
-Requires PHP: 7.2
+Requires PHP: 7.0
 Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -52,7 +52,7 @@ You can contribute with this plugin development by:
 
 To run Organizing we recommend your host supports:
 
-- [PHP](http://www.php.net) version 7.2 or greater
+- [PHP](http://www.php.net) version 7.0 or greater
 - [MySQL](http://www.mysql.com) version 5.6 or greater OR [MariaDB](https://mariadb.org) version 10.0 or greater
 - [HTTPS](https://wordpress.org/news/2016/12/moving-toward-ssl) support
 
@@ -70,7 +70,7 @@ To run Organizing we recommend your host supports:
 
 = What PHP version is required for this plugin? =
 
-This plugin requires a minimum of PHP 7.2.
+This plugin requires a minimum of PHP 7.0.
 
 = How can I upgrade my PHP and MySQL / MariaDB versions? =
 
