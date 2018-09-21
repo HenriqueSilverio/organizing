@@ -30,7 +30,7 @@
   },
   "homepage": "https://wordpress.org/plugins/organizing",
   "devDependencies": {
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.3",
     "uglify-es": "^3.3.9"
   }
 }
